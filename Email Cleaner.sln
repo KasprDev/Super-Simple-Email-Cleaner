@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email Cleaner", "Email Cleaner\Email Cleaner.csproj", "{45679437-9491-4C4F-AE5E-D65DBFC61234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45679437-9491-4C4F-AE5E-D65DBFC61234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45679437-9491-4C4F-AE5E-D65DBFC61234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45679437-9491-4C4F-AE5E-D65DBFC61234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45679437-9491-4C4F-AE5E-D65DBFC61234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C38F1B34-A444-48CC-8CAE-EA5E01B5341E}
+	EndGlobalSection
+EndGlobal
