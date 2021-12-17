@@ -107,6 +107,9 @@ namespace Email_Cleaner
 
                     HtmlNodeCollection links = doc.DocumentNode.SelectNodes("//a/@href");
 
+                    if (links == null)
+                        continue;
+
                     foreach (var link in links)
                     {
                         if (link.InnerText.ToLower().Contains("unsubscribe"))
@@ -115,6 +118,9 @@ namespace Email_Cleaner
                             string emailSender = message.From.OfType<MailboxAddress>().Single().Address;
 
                             if (whitelist.Contains(emailSender))
+                                continue;
+
+                            if (_emails.Any(x => x.Sender == emailSender))
                                 continue;
 
                             _emails.Add(new UnsubscribeEmail()
